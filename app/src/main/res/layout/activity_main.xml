@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ground"
+        android:gravity="center"
+        android:text="25"
+        android:textColor="@color/text"
+        android:textSize="15sp"
+        tools:ignore="TextContrastCheck" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Студентов"
+        android:textColor="@color/text"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:onClick="onClickBtnAddStudents"
+        android:text="Добавить студента"
+        android:textColor="#880E4F" />
+</LinearLayout>
